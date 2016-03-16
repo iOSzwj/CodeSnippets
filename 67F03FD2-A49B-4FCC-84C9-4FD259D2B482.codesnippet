@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>init</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>-(instancetype)initWithDict:(NSDictionary *)dict{
+    self = [super init];
+    if (self) {
+        [self setValuesForKeysWithDictionary:dict];
+    }
+    return self;
+}
++(instancetype)&lt;#name#&gt;WithDict:(NSDictionary *)dict{
+    return [[self alloc]initWithDict:dict];
+}
++(NSArray *)&lt;#plist#&gt;{
+    NSArray *array=[NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"&lt;#plist#&gt;.plist" ofType:nil]];
+    NSMutableArray *marray=[NSMutableArray array];
+    for (NSDictionary *dict in array) {
+        [marray addObject:[self &lt;#name#&gt;WithDict:dict]];
+    }
+    return marray;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>67F03FD2-A49B-4FCC-84C9-4FD259D2B482</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>定义数据源</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
