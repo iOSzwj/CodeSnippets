@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>shard</string>
+	<string>shared</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+(instancetype)shard&lt;#className#&gt;;</string>
+	<string>+(instancetype)shared&lt;#className#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F25D8F32-2F9F-4450-B240-78FE4DF025E7</string>
 	<key>IDECodeSnippetLanguage</key>

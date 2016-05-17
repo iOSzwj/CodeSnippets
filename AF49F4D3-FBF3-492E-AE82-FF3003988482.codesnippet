@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tablesan</string>
+	<string>tbs</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark - UITableViewDataSource
@@ -28,17 +28,16 @@
     return cell;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>50567555-3DB5-4A9C-BBA0-70077E002DF1</string>
+	<string>AF49F4D3-FBF3-492E-AE82-FF3003988482</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>三问</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tableView
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentigy];</string>
+	<string>tableView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
