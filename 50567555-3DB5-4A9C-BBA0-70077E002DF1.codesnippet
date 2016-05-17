@@ -19,9 +19,10 @@
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    static NSString *cellIdentigy = @"&lt;#cellIdentigy#&gt;";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentigy];
     if (cell == nil) {
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentigy];
     }
     &lt;#内容#&gt;
     return cell;
@@ -33,7 +34,8 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>三问</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tableView</string>
+	<string>tableView
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentigy];</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
