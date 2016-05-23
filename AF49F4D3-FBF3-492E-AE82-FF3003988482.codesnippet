@@ -6,7 +6,7 @@
 	<string>tbs</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark - UITableViewDataSource
@@ -30,7 +30,7 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>AF49F4D3-FBF3-492E-AE82-FF3003988482</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>三问</string>
 	<key>IDECodeSnippetTitle</key>
