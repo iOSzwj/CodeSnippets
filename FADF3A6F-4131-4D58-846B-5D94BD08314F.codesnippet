@@ -11,9 +11,21 @@
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark - 生命周期 Life Circle
 
-#pragma mark - 方法 Methods
+#pragma mark - 控制器生命周期 ViewController Life Circle
 
-#pragma mark - 懒加载 Lazy Load</string>
+#pragma mark - 公开的方法 public Methods
+
+#pragma mark - 私有的方法 private Methods
+
+#pragma mark - 代理方法 delegate
+
+#pragma mark - 数据源代理 datesource
+
+#pragma mark - 触摸事件 touch event
+
+#pragma mark - setter
+
+#pragma mark - 懒加载 getter</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>FADF3A6F-4131-4D58-846B-5D94BD08314F</string>
 	<key>IDECodeSnippetLanguage</key>
