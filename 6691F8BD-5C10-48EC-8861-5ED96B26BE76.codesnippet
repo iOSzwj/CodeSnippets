@@ -18,11 +18,11 @@
     return obj;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>621F1E0C-5ACA-42A3-96F8-F954AF06A341</string>
+	<string>6691F8BD-5C10-48EC-8861-5ED96B26BE76</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>定义</string>
+	<string>shared</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>单例</string>
 	<key>IDECodeSnippetUserSnippet</key>
