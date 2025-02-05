@@ -31,6 +31,8 @@
 	<string>67F03FD2-A49B-4FCC-84C9-4FD259D2B482</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>定义数据源</string>
 	<key>IDECodeSnippetUserSnippet</key>

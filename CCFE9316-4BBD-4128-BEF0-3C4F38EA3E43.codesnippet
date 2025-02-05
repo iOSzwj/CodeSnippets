@@ -9,7 +9,9 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (@available(iOS 13,*))</string>
+	<string>if (@available(iOS 13,*)){
+    &lt;#code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>CCFE9316-4BBD-4128-BEF0-3C4F38EA3E43</string>
 	<key>IDECodeSnippetLanguage</key>
